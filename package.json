@@ -1,0 +1,25 @@
+{
+  "name": "generator-release-note",
+  "version": "1.0.0",
+  "description": "Github actions for release plan gor grouping each commit in every tag and every commit",
+  "main": "index.js",
+  "author": "Vicky Hermawan",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "@octokit/rest": "^20.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}

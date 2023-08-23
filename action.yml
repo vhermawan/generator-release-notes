@@ -1,0 +1,22 @@
+name: 'Generator Release Note'
+description: 'Make a release note with semantic version'
+branding:
+  icon: 'tag'
+  color: 'blue'
+author: Vhermawan
+inputs:
+  repository:
+    description: 'Name of repository'
+    required: true
+    default: ''
+  owner:
+    description: 'Owner of repository'
+    required: true
+    default: ''
+  token:
+    description: 'Your github secret token'
+    required: false
+    default: ${{ github.token }}
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
