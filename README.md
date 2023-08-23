@@ -1,6 +1,6 @@
 # Generator Release Notes
 
-### This repository provides a GitHub action to <strong>automatically create a release notes</strong> after you creating a tag and wants to create a release notes
+This repository provides a GitHub action to <strong>automatically create a release notes</strong> after you creating a tag and wants to create a release notes
 
 ## Common usage
 
