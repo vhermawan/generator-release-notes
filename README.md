@@ -64,6 +64,6 @@ jobs:
   generate-release-notes:
     if: contains(github.event.pull_request.labels.*.name, 'release')
     needs: pull-request
-    uses: ./.github/workflows/checking-commit.yml
+    uses: ./.github/workflows/generate-release-note.yml
     secrets: inherit
 ```
