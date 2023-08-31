@@ -1,4 +1,4 @@
-name: 'Generator Release Note'
+name: 'Generator Release Notes'
 description: 'Make a release note with semantic version'
 branding:
   icon: 'tag'
