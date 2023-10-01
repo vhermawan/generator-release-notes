@@ -37,7 +37,7 @@ jobs:
         ref: 'main'
 
     - name: Generate release notes
-      uses: vhermawan/generator-release-notes@v1.0.0
+      uses: vhermawan/generator-release-notes@v1.0.2
       with:
         owner: <your-username>
         token: ${{ github.token }}
